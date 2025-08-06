@@ -1,4 +1,4 @@
-﻿#iventbia# - 08/06/2025 17:42:24
+﻿#iventbia# - 08/06/2025 17:58:45
 
 #placa_mae wmic#
 Manufacturer  Product  SerialNumber              Version  
@@ -136,10 +136,10 @@ Localidade do sistema:                     pt-br;Portugu�s (Brasil)
 Localidade de entrada:                     pt-br;Portugu�s (Brasil)
 Fuso hor�rio:                              (UTC-03:00) Bras�lia
 Mem�ria f�sica total:                      40.722 MB
-Mem�ria f�sica dispon�vel:                 7.473 MB
+Mem�ria f�sica dispon�vel:                 8.608 MB
 Mem�ria Virtual: Tamanho M�ximo:           54.034 MB
-Mem�ria Virtual: Dispon�vel:               11.618 MB
-Mem�ria Virtual: Em Uso:                   42.416 MB
+Mem�ria Virtual: Dispon�vel:               14.662 MB
+Mem�ria Virtual: Em Uso:                   39.372 MB
 Local(s) do Arquivo de P�gina:             C:\pagefile.sys
 Dom�nio:                                   GRUPOSRM.local
 Servidor de Logon:                         \\SRMSRV
@@ -270,7 +270,7 @@ Adaptador Ethernet VMware Network Adapter VMnet1:
    Endere�o IPv4. . . . . . . .  . . . . . . . : 192.168.6.1(Preferencial) 
    M�scara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
    Concess�o Obtida. . . . . . . . . . . . . . : quinta-feira, 31 de julho de 2025 16:22:13
-   Concess�o Expira. . . . . . . . . . . . . . : quarta-feira, 6 de agosto de 2025 18:09:02
+   Concess�o Expira. . . . . . . . . . . . . . : quarta-feira, 6 de agosto de 2025 18:24:01
    Gateway Padr�o. . . . . . . . . . . . . . . : 
    Servidor DHCP . . . . . . . . . . . . . . . : 192.168.6.254
    IAID de DHCPv6. . . . . . . . . . . . . . . : 872435798
@@ -288,7 +288,7 @@ Adaptador Ethernet VMware Network Adapter VMnet8:
    Endere�o IPv4. . . . . . . .  . . . . . . . : 192.168.111.1(Preferencial) 
    M�scara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
    Concess�o Obtida. . . . . . . . . . . . . . : quinta-feira, 31 de julho de 2025 16:22:13
-   Concess�o Expira. . . . . . . . . . . . . . : quarta-feira, 6 de agosto de 2025 18:09:02
+   Concess�o Expira. . . . . . . . . . . . . . : quarta-feira, 6 de agosto de 2025 18:24:01
    Gateway Padr�o. . . . . . . . . . . . . . . : 
    Servidor DHCP . . . . . . . . . . . . . . . : 192.168.111.254
    IAID de DHCPv6. . . . . . . . . . . . . . . : 889213014
@@ -307,7 +307,7 @@ Adaptador Ethernet Ethernet:
    Endere�o IPv4. . . . . . . .  . . . . . . . : 192.168.10.32(Preferencial) 
    M�scara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
    Concess�o Obtida. . . . . . . . . . . . . . : quarta-feira, 6 de agosto de 2025 16:46:29
-   Concess�o Expira. . . . . . . . . . . . . . : quarta-feira, 6 de agosto de 2025 19:53:06
+   Concess�o Expira. . . . . . . . . . . . . . : quarta-feira, 6 de agosto de 2025 19:53:05
    Gateway Padr�o. . . . . . . . . . . . . . . : 192.168.10.1
    Servidor DHCP . . . . . . . . . . . . . . . : 192.168.10.2
    IAID de DHCPv6. . . . . . . . . . . . . . . : 280001317

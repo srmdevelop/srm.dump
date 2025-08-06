@@ -1,14 +1,14 @@
-using System;
 using System.Diagnostics;
-using System.IO;
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 using System.Runtime.InteropServices;
 
 namespace dump
 {
+    [SuppressMessage("ReSharper", "InconsistentNaming")]
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             try
             {
@@ -27,8 +27,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 try
                 {
                     Console.WriteLine("Passo 2 de 11 - Coletando informações do processador");
@@ -40,8 +43,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 try
                 {
                     Console.WriteLine("Passo 3 de 11 - Coletando informações da memória");
@@ -53,8 +59,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 try
                 {
                     Console.WriteLine("Passo 4 de 11 - Coletando informações do disco");
@@ -66,8 +75,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 try
                 {
                     Console.WriteLine("Passo 5 de 11 - Coletando informações da placa mãe");
@@ -79,8 +91,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 try
                 {
                     Console.WriteLine("Passo 6 de 11 - Coletando informações do BIOS");
@@ -92,8 +107,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 try
                 {
                     Console.WriteLine("Passo 7 de 11 - Coletando informações do sistema");
@@ -121,8 +139,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 try
                 {
                     Console.WriteLine("Passo 9 de 11 - Coletando informações do sistema");
@@ -134,8 +155,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 try
                 {
                     Console.WriteLine("Passo 10 de 11 - Coletando informações dos drivers");
@@ -147,8 +171,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 // Aplicações instaladas via WMIC
                 try
                 {
@@ -161,8 +188,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 // Aplicações instaladas via PowerShell
                 try
                 {
@@ -174,8 +204,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 // Aplicações instaladas via PowerShell (64 bits)
                 try
                 {
@@ -187,8 +220,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 // Lista de usuários locais via comando net user
                 try
                 {
@@ -200,8 +236,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 // Lista de usuários via PowerShell (mais detalhado)
                 try
                 {
@@ -213,8 +252,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 // Lista de grupos locais
                 try
                 {
@@ -226,8 +268,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "inventario.txt");
                 // Criar o novo arquivo de inventário
                 File.WriteAllText(filePath, inventarioCompleto.ToString(), Encoding.UTF8);
@@ -239,7 +284,10 @@ namespace dump
                     string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "inventario.txt");
                     File.WriteAllText(filePath, $"Erro ao coletar informações: {ex.Message}", Encoding.UTF8);
                 }
-                catch {}
+                catch
+                {
+                    // ignored
+                }
             }
         }
         
