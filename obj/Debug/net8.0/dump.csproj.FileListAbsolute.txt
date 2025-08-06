@@ -1,0 +1,15 @@
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\bin\Debug\net8.0\dump.exe
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\bin\Debug\net8.0\dump.deps.json
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\bin\Debug\net8.0\dump.runtimeconfig.json
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\bin\Debug\net8.0\dump.dll
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\bin\Debug\net8.0\dump.pdb
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Debug\net8.0\dump.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Debug\net8.0\dump.AssemblyInfoInputs.cache
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Debug\net8.0\dump.AssemblyInfo.cs
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Debug\net8.0\dump.csproj.CoreCompileInputs.cache
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Debug\net8.0\dump.sourcelink.json
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Debug\net8.0\dump.dll
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Debug\net8.0\refint\dump.dll
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Debug\net8.0\dump.pdb
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Debug\net8.0\dump.genruntimeconfig.cache
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Debug\net8.0\ref\dump.dll
