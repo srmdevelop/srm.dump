@@ -105,8 +105,11 @@ namespace dump
                         inventarioCompleto.AppendLine();
                     }
                 }
-                catch {}
-                
+                catch
+                {
+                    // ignored
+                }
+
                 try
                 {
                     Console.WriteLine("Passo 8 de 11 - Coletando informações da rede");
@@ -226,17 +229,6 @@ namespace dump
                 catch {}
                 
                 string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "inventario.txt");
-                
-                // Remover o arquivo se ele já existir
-                try
-                {
-                    if (File.Exists(filePath))
-                    {
-                        File.Delete(filePath);
-                    }
-                }
-                catch {}
-                
                 // Criar o novo arquivo de inventário
                 File.WriteAllText(filePath, inventarioCompleto.ToString(), Encoding.UTF8);
             }
