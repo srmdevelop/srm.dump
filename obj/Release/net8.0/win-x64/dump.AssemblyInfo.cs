@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dump")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f21d1722ce90caf005b312ae369b73d106b804c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0517f58241f4b583445ff21e0e83bfff704d2184")]
 [assembly: System.Reflection.AssemblyProductAttribute("dump")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dump")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
