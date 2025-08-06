@@ -1,0 +1,5 @@
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Release\net8.0\win-x64\dump.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Release\net8.0\win-x64\dump.AssemblyInfoInputs.cache
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Release\net8.0\win-x64\dump.AssemblyInfo.cs
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Release\net8.0\win-x64\dump.csproj.CoreCompileInputs.cache
+C:\Users\Oberdan.Jesus\Documents\GitHub\srm.dump\obj\Release\net8.0\win-x64\dump.sourcelink.json
